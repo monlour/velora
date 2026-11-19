@@ -1,0 +1,96 @@
+:root {
+  /* ========================================
+     01. Colors
+  ======================================== */
+
+  /* Backgrounds */
+  --color-page: #0b0f0d;
+  --color-surface: #111714;
+  --color-elevated: #18211d;
+  --color-interactive: #1e2924;
+
+  /* Brand */
+  --color-accent: #63f59a;
+  --color-accent-hover: #87ffb3;
+  --color-accent-pressed: #36d975;
+  --color-accent-soft: #173d2a;
+
+  /* Text */
+  --color-text-primary: #f2f7f4;
+  --color-text-secondary: #a4b3aa;
+  --color-text-muted: #6d7d74;
+
+  /* Borders */
+  --color-border: #283630;
+  --color-border-accent: var(--color-accent);
+
+  /* Semantic colors */
+  --color-success: var(--color-accent);
+  --color-warning: #f5c85f;
+  --color-error: #ff6b77;
+  --color-info: #6bc6ff;
+
+  /* ========================================
+     02. Typography
+  ======================================== */
+
+  /* Font families */
+  --font-family-heading: 'Space Grotesk', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  /* Semantic font sizes */
+  --font-size-display: 48px;
+  --font-size-heading: 32px;
+  --font-size-title: 22px;
+  --font-size-body: 16px;
+  --font-size-label: 13px;
+  --font-size-caption: 12px;
+
+  /* Additional font sizes */
+  --font-size-10: 10px;
+  --font-size-14: 14px;
+  --font-size-15: 15px;
+  --font-size-18: 18px;
+
+  /* ========================================
+     03. Spacing
+  ======================================== */
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+
+  /* ========================================
+     04. Borders
+   ======================================= */
+
+  --border: 1px solid var(--color-border);
+  --border-accent: 1px solid var(--color-border-accent);
+
+  /* ========================================
+     05. Border radius
+  ======================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ========================================
+     06. Transitions
+  ======================================== */
+
+  --transition-duration: 0.2s;
+}

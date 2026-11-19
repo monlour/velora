@@ -1,0 +1,20 @@
+.root {
+  border: var(--border);
+  border-radius: 0px 0px var(--radius-md) var(--radius-md);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: var(--spacing-16);
+  padding: 12px 24px;
+  width: min(100%, 1392px);
+  margin-inline: auto;
+}
+
+@media (max-width: 767px) {
+  .inner {
+    padding: 10px 16px;
+  }
+}

@@ -1,0 +1,59 @@
+/* ========================================
+   01. Page
+======================================== */
+
+body {
+  color: var(--color-text-primary);
+  background-color: var(--color-page);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+}
+
+/* ========================================
+   02. React root
+======================================== */
+
+#root {
+  min-height: 100vh;
+}
+
+/* ========================================
+   03. Typography
+======================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+}
+
+/* ========================================
+   04. Links
+======================================== */
+
+a {
+  color: inherit;
+}
+
+/* ========================================
+   05. Transitions
+======================================== */
+
+input,
+label,
+button {
+  transition-duration: var(--transition-duration);
+}
+
+/* ========================================
+   06. Accessibility
+======================================== */
+
+:focus-visible {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
